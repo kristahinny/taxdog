@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px hsla(59, 66%, 57%, 0.102);
+}
+
+.profile {
+    display: flex;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+h1 {
+    text-align: left;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3f4b41;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+h1{
+color: burlywood;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('fundo-com-padrao-de-pata-desenhado-a-mao_23-2151138821.avif'); /* Insira o caminho da sua imagem aqui */
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center; /* Para centralizar a imagem */
+    margin: 0;
+    padding: 20px;
+}
+.motorista-info {
+    display: flex;
+    flex-direction: column; /* Organiza em coluna vertical */
+    margin-top: 20px; /* Espaço acima da seção */
+}
+
+.motorista-info p {
+    margin: 5px 0; /* Espaço entre os parágrafos */
+}
